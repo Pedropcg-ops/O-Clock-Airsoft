@@ -978,7 +978,7 @@ p {
   background:
     linear-gradient(180deg, rgba(5, 6, 7, 0.65), rgba(5, 6, 7, 0.86)),
     linear-gradient(90deg, rgba(5, 6, 7, 0.86), rgba(5, 6, 7, 0.42), rgba(5, 6, 7, 0.86)),
-    url("assets/images/final-cta-bg.JPG") center / cover no-repeat;
+    url("O-clock-Airsoft/images/final-cta-bg.JPG") center / cover no-repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -1662,7 +1662,7 @@ body {
   background:
     linear-gradient(90deg, rgba(5, 6, 7, 0.95), rgba(5, 6, 7, 0.76), rgba(5, 6, 7, 0.92)),
     linear-gradient(180deg, rgba(5, 6, 7, 0.82), rgba(5, 6, 7, 0.94)),
-    url("assets/images/final-cta-bg.JPG") center right / auto 82% no-repeat,
+    url("O-clock-Airsoft/images/final-cta-bg.JPG") center right / auto 82% no-repeat,
     #050607;
 }
 
@@ -1714,7 +1714,7 @@ body {
     background:
       linear-gradient(90deg, rgba(5, 6, 7, 0.94), rgba(5, 6, 7, 0.82)),
       linear-gradient(180deg, rgba(5, 6, 7, 0.78), rgba(5, 6, 7, 0.95)),
-      url("assets/images/final-cta-bg.JPG") center bottom / auto 62% no-repeat,
+      url("O-clock-Airsoft/images/final-cta-bg.JPG") center bottom / auto 62% no-repeat,
       #050607;
   }
 }
@@ -1783,7 +1783,7 @@ body {
     min-height: 560px;
     background:
       linear-gradient(180deg, rgba(5, 6, 7, 0.84), rgba(5, 6, 7, 0.96)),
-      url("assets/images/final-cta-bg.JPG") center bottom / 92% auto no-repeat,
+      url("O-clock-Airsoft/images/final-cta-bg.JPG") center bottom / 92% auto no-repeat,
       #050607;
   }
 }
@@ -2486,3 +2486,4 @@ body {
     transform: scale(0.96);
   }
 }
+
