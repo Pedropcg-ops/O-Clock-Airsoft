@@ -12,6 +12,11 @@ function initRevealAnimations() {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
+        if (entry.target.classList.contains("component-card")) {
+          entry.target.classList.toggle("is-visible", entry.isIntersecting);
+          return;
+        }
+
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
           observer.unobserve(entry.target);
@@ -118,9 +123,55 @@ function initSubtleParallax() {
   updateParallax();
 }
 
+function initConsultModal() {
+  const modal = document.querySelector("#compatibility-modal");
+  if (!modal) return;
+
+  const openButtons = document.querySelectorAll("[data-modal-open]");
+  const closeButtons = modal.querySelectorAll("[data-modal-close]");
+  const form = modal.querySelector(".consult-form");
+  const status = modal.querySelector(".consult-form__status");
+  const firstInput = modal.querySelector("input");
+
+  const openModal = () => {
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("is-modal-open");
+    window.setTimeout(() => firstInput?.focus(), 120);
+  };
+
+  const closeModal = () => {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("is-modal-open");
+  };
+
+  openButtons.forEach((button) => {
+    button.addEventListener("click", openModal);
+  });
+
+  closeButtons.forEach((button) => {
+    button.addEventListener("click", closeModal);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && modal.classList.contains("is-open")) {
+      closeModal();
+    }
+  });
+
+  form?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (status) {
+      status.textContent = "Consulta preparada. Falta conectar este formulario al canal de contacto.";
+    }
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initRevealAnimations();
   initFaq();
   initAnchorOffset();
   initSubtleParallax();
+  initConsultModal();
 });
