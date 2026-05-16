@@ -2179,6 +2179,7 @@ body {
   .component-card__media,
   .component-card:nth-child(even) .component-card__media {
     height: 290px;
+    order: 2;
   }
 
   .component-card__media img,
@@ -2470,12 +2471,30 @@ body {
     min-height: 420px;
   }
 
+  .hero__media.reveal .product-render--hero {
+    opacity: 0;
+    transform: translateY(44px) scale(0.98);
+    transition: opacity 800ms ease, transform 900ms cubic-bezier(0.2, 0.72, 0.16, 1);
+  }
+
+  .hero__media.reveal.is-visible .product-render--hero {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
   .components__list {
     gap: 10px;
   }
 
   .component-card {
     min-height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .component-card__body,
+  .component-card:nth-child(even) .component-card__body {
+    order: 1;
   }
 
   .compatibility__media {
@@ -2486,5 +2505,4 @@ body {
     transform: scale(0.96);
   }
 }
-
 
