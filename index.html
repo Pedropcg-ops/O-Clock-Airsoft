@@ -3,59 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Landing premium para packs de mejora O'Clock Airsoft orientados a rendimiento técnico real.">
-  <title>O'Clock Airsoft | Performance Pack</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Landing premium para Pack Asalto Titanium Series de O'Clock Airsoft.">
+  <title>O'Clock Airsoft | Pack Asalto Titanium Series</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header" aria-label="Navegacion principal">
+  <header class="site-header" aria-label="Navegación principal">
     <a class="site-header__brand" href="#top" aria-label="O'Clock Airsoft inicio">
-      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-mark" aria-hidden="true">
+        <img class="brand-logo" src="assets/images/oclock-logo.png" alt="Logotipo de O'Clock Airsoft">
+      </span>
       O'Clock Airsoft
     </a>
     <nav class="site-header__nav" aria-label="Secciones">
+      <a href="#pack-asalto">Pack Asalto</a>
       <a href="#componentes">Componentes</a>
       <a href="#compatibilidad">Compatibilidad</a>
-      <a href="#specs">Specs</a>
     </nav>
-    <a class="site-header__cta" href="#comprar">Comprar</a>
+    <a class="site-header__cta" href="#comprar">Consultar</a>
   </header>
 
   <main id="top">
     <section class="hero section-dark" aria-labelledby="hero-title">
       <div class="hero__content page-shell">
         <div class="hero__text">
-          <p class="eyebrow reveal">O'Clock Airsoft Performance Pack</p>
-          <h1 id="hero-title" class="hero__title reveal">Rendimiento real sin concesiones</h1>
+          <p class="eyebrow reveal">O'Clock Airsoft · Titanium Series</p>
+          <h1 id="hero-title" class="hero__title reveal">Pack Asalto</h1>
           <p class="hero__subtitle reveal">
-            Pack de optimización diseñado para mejorar compresión, consistencia y respuesta mecánica en configuraciones exigentes.
+            Una preparación técnica pensada para usuarios que buscan respuesta, consistencia y fiabilidad en configuraciones exigentes.
           </p>
           <div class="hero__actions reveal">
-            <a class="button button--primary" href="#componentes">Ver componentes</a>
-            <a class="button button--secondary" href="#comprar">Comprar pack</a>
+            <a class="button button--primary" href="#pack-asalto">Ver Pack Asalto</a>
+            <a class="button button--secondary" href="#comprar">Consultar compatibilidad</a>
           </div>
         </div>
 
-        <div class="hero__media reveal" aria-label="Render conceptual del pack Joule Master">
-          <div class="product-render product-render--hero">
-            <span class="render-line render-line--top"></span>
-            <span class="render-line render-line--bottom"></span>
-            <div class="render-core">
-              <span class="render-core__ring"></span>
-              <span class="render-core__bar"></span>
-              <span class="render-core__module"></span>
-            </div>
-            <div class="render-caption">
-              <span>Joule Master</span>
-              <strong>Performance Pack</strong>
-            </div>
+        <div class="hero__media reveal">
+          <div class="product-render product-render--hero image-panel">
+            <img class="visual-image visual-image--cover hero-pack-image" src="assets/images/pack-overview.JPG" alt="Réplica Titanium Series preparada por O'Clock Airsoft">
           </div>
         </div>
       </div>
-      <a class="scroll-indicator" href="#concepto" aria-label="Bajar a la siguiente seccion">
+      <a class="scroll-indicator" href="#concepto" aria-label="Bajar a la siguiente sección">
         <span></span>
       </a>
     </section>
@@ -63,99 +52,180 @@
     <section id="concepto" class="concept section-pad" aria-labelledby="concept-title">
       <div class="concept__inner page-shell">
         <div class="concept__text reveal">
-          <p class="section-kicker">Sistema, no acumulación</p>
-          <h2 id="concept-title">Más que un conjunto de piezas</h2>
+          <p class="section-kicker">Preparación como sistema</p>
+          <h2 id="concept-title">No es una suma de piezas</h2>
           <p>
-            Cada componente ha sido seleccionado para trabajar como parte de un sistema. El objetivo no es añadir piezas sin criterio, sino optimizar el conjunto para lograr una respuesta más estable, una mejor compresión y una mayor consistencia entre disparos.
+            Pack Asalto se plantea como una preparación completa. Cada componente tiene sentido dentro del conjunto: equilibrio, respuesta y consistencia antes que montaje por catálogo.
           </p>
-          <blockquote class="concept__quote">El rendimiento real nace del equilibrio.</blockquote>
+          <blockquote class="concept__quote">El rendimiento real nace cuando todo trabaja en la misma dirección.</blockquote>
         </div>
         <div class="concept__media reveal">
-          <div class="technical-panel" role="img" aria-label="Detalle visual técnico de compresión y ajuste">
-            <span class="technical-panel__grid"></span>
-            <span class="technical-panel__axis"></span>
-            <span class="technical-panel__node technical-panel__node--one"></span>
-            <span class="technical-panel__node technical-panel__node--two"></span>
-            <span class="technical-panel__node technical-panel__node--three"></span>
-            <p>Balance neumático / ciclo mecánico</p>
+          <div class="technical-panel image-panel image-panel--bottom-fade">
+            <img class="visual-image visual-image--cover" src="assets/images/concept-system.jpg" alt="Sistema técnico de componentes trabajando en equilibrio">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="pack-overview section-pad section-raised" aria-labelledby="pack-title">
+    <section id="pack-asalto" class="pack-overview section-pad section-raised" aria-labelledby="pack-title">
       <div class="pack-overview__inner page-shell">
         <div class="pack-overview__media reveal">
-          <div class="pack-visual" role="img" aria-label="Vista conceptual del pack completo">
-            <span class="pack-visual__plate"></span>
-            <span class="pack-visual__part pack-visual__part--one"></span>
-            <span class="pack-visual__part pack-visual__part--two"></span>
-            <span class="pack-visual__part pack-visual__part--three"></span>
-            <span class="pack-visual__tag">Render del pack completo</span>
+          <div class="pack-visual image-panel image-panel--bottom-fade">
+            <img class="visual-image visual-image--cover performance-image" src="assets/images/performance-detail.JPG" alt="Detalle técnico del Pack Asalto Titanium Series">
           </div>
         </div>
         <div class="pack-overview__content reveal">
-          <p class="section-kicker">Pack destacado</p>
-          <h2 id="pack-title">Joule Master Performance Pack</h2>
+          <p class="section-kicker">Titanium Series</p>
+          <h2 id="pack-title">Pack Asalto</h2>
           <p>
-            Una configuración orientada a mejorar el sellado, la eficiencia neumática y la consistencia general del sistema.
+            Una configuración orientada a mejorar la respuesta, la estabilidad mecánica y la confianza del usuario en partidas dinámicas. No se plantea como una simple suma de piezas, sino como una preparación completa con criterio técnico.
           </p>
-          <ul class="feature-list" aria-label="Ventajas principales del pack">
-            <li class="feature-list__item">Mejor compresión</li>
-            <li class="feature-list__item">Mayor consistencia</li>
+          <ul class="feature-list" aria-label="Ventajas principales del Pack Asalto">
+            <li class="feature-list__item">Respuesta más directa</li>
+            <li class="feature-list__item">Preparación técnica equilibrada</li>
             <li class="feature-list__item">Componentes seleccionados por rendimiento</li>
-            <li class="feature-list__item">Diseñado para configuraciones exigentes</li>
+            <li class="feature-list__item">Pensado para uso dinámico y exigente</li>
+            <li class="feature-list__item">Montaje y ajuste con criterio de taller</li>
           </ul>
           <div class="pack-overview__buy">
-            <span class="price-placeholder">Desde 00,00 EUR</span>
-            <a class="button button--primary" href="#comprar">Configurar pack</a>
+            <a class="button button--primary" href="#comprar">Consultar Pack Asalto</a>
+            <a class="button button--secondary" href="#comprar">Preguntar compatibilidad</a>
           </div>
+        </div>
+      </div>
+
+      <div class="other-configs page-shell reveal" aria-labelledby="other-configs-title">
+        <p class="section-kicker">Otras configuraciones disponibles</p>
+        <h3 id="other-configs-title">Preparaciones según uso</h3>
+        <div class="other-configs__grid">
+          <a class="config-card reveal" href="pack-cqb.html">
+            <span class="config-card__line" aria-hidden="true"></span>
+            <h4>Pack CQB</h4>
+            <p>Respuesta rápida y control en distancias cortas.</p>
+          </a>
+          <a class="config-card reveal" href="pack-dmr.html">
+            <span class="config-card__line" aria-hidden="true"></span>
+            <h4>Pack DMR</h4>
+            <p>Estabilidad, consistencia y rendimiento con bola pesada.</p>
+          </a>
+          <a class="config-card reveal" href="pack-soporte.html">
+            <span class="config-card__line" aria-hidden="true"></span>
+            <h4>Pack Soporte</h4>
+            <p>Fiabilidad y cadencia sostenida.</p>
+          </a>
         </div>
       </div>
     </section>
 
     <section id="componentes" class="components section-pad" aria-labelledby="components-title">
-      <div class="page-shell">
-        <div class="section-heading reveal">
+      <div class="components__inner page-shell">
+        <div class="components__intro reveal">
           <p class="section-kicker">Componentes incluidos</p>
-          <h2 id="components-title">Piezas tratadas como un conjunto técnico</h2>
+          <h2 id="components-title">Algunos de los componentes con los que cuenta el Pack Asalto</h2>
+          <p>
+            La selección de piezas no busca llenar una lista. Busca que cada elemento aporte al comportamiento final de la réplica.
+          </p>
         </div>
-        <div class="components__grid">
+
+        <div class="components__showcase reveal" aria-hidden="true">
+          <img src="assets/images/component-piston-head.png" alt="Cabeza de pistón del Pack Asalto">
+          <img src="assets/images/component-cylinder-head.png" alt="Cabeza de cilindro del Pack Asalto">
+          <img src="assets/images/component-nozzle.png" alt="Nozzle del Pack Asalto">
+          <img src="assets/images/component-spring-guide.png" alt="Guía de muelle del Pack Asalto">
+          <img src="assets/images/component-piston.png" alt="Pistón del Pack Asalto">
+          <img src="assets/images/component-extra.png" alt="Elemento de ajuste del Pack Asalto">
+          <img src="assets/images/motor-brushless.png" alt="Motor Brushless del Pack Asalto">
+          <img src="assets/images/Engranajes-Raccoon.png" alt="Engranajes Raccoon del Pack Asalto">
+        </div>
+
+        <div class="components__list">
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder cabeza de piston"><span></span></div>
-            <h3 class="component-card__title">Cabeza de piston</h3>
-            <p class="component-card__text">Diseñada para optimizar el sellado y reducir pérdidas de energía dentro del ciclo neumático.</p>
-            <p class="component-card__benefit">Mayor eficiencia en cada disparo.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-piston-head.png" alt="Cabeza de pistón del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">01</p>
+              <h3 class="component-card__title">Cabeza de Pistón Joule Master</h3>
+              <p class="component-card__text">Juega con cualquier peso de bola. Se ajusta sola dependiendo de la réplica gracias a la transmisión de energía por su avanzada tecnología.</p>
+              <p class="component-card__benefit">Beneficio: adaptación inteligente y entrega más constante.</p>
+            </div>
           </article>
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder cabeza de cilindro"><span></span></div>
-            <h3 class="component-card__title">Cabeza de cilindro</h3>
-            <p class="component-card__text">Base de apoyo estable para mejorar el cierre del sistema y la transferencia de aire.</p>
-            <p class="component-card__benefit">Compresión más uniforme.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-cylinder-head.png" alt="Cabeza de cilindro del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">02</p>
+              <h3 class="component-card__title">Cabeza de cilindro con nuestros Dumper</h3>
+              <p class="component-card__text">Fabricados por nosotros con una dureza Shore 40-45. Ayuda a silenciar e igualar la potencia del conjunto.</p>
+              <p class="component-card__benefit">Beneficio: ciclo más silencioso y potencia más estable.</p>
+            </div>
           </article>
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder nozzle"><span></span></div>
-            <h3 class="component-card__title">Nozzle</h3>
-            <p class="component-card__text">Seleccionado para favorecer un ajuste preciso y una alimentación consistente del ciclo.</p>
-            <p class="component-card__benefit">Menor variación entre disparos.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-nozzle.png" alt="Nozzle del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">03</p>
+              <h3 class="component-card__title">Nozzle</h3>
+              <p class="component-card__text">Elemento clave entre cámara y sistema neumático.</p>
+              <p class="component-card__benefit">Beneficio: alimentación y sellado más consistentes.</p>
+            </div>
           </article>
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder guia de muelle"><span></span></div>
-            <h3 class="component-card__title">Guía de muelle</h3>
-            <p class="component-card__text">Aporta estabilidad al conjunto de compresión y reduce tensiones innecesarias.</p>
-            <p class="component-card__benefit">Respuesta mecánica más limpia.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-spring-guide.png" alt="Guía de muelle del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">04</p>
+              <h3 class="component-card__title">Guía de muelle</h3>
+              <p class="component-card__text">Aporta estabilidad al conjunto del muelle durante el ciclo.</p>
+              <p class="component-card__benefit">Beneficio: funcionamiento más limpio y controlado.</p>
+            </div>
           </article>
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder piston"><span></span></div>
-            <h3 class="component-card__title">Piston</h3>
-            <p class="component-card__text">Componente clave para soportar ciclos exigentes manteniendo una entrega estable.</p>
-            <p class="component-card__benefit">Fiabilidad bajo demanda.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-piston.png" alt="Pistón del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">05</p>
+              <h3 class="component-card__title">Pistón</h3>
+              <p class="component-card__text">Base mecánica del ciclo de compresión.</p>
+              <p class="component-card__benefit">Beneficio: respuesta más sólida y comportamiento más predecible.</p>
+            </div>
           </article>
           <article class="component-card reveal">
-            <div class="component-card__media" role="img" aria-label="Placeholder componente de ajuste"><span></span></div>
-            <h3 class="component-card__title">Elemento de ajuste</h3>
-            <p class="component-card__text">Pieza auxiliar pensada para completar el equilibrio funcional del conjunto.</p>
-            <p class="component-card__benefit">Sinergia real entre componentes.</p>
+            <div class="component-card__media">
+              <img src="assets/images/component-extra.png" alt="Elemento de ajuste del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">06</p>
+              <h3 class="component-card__title">Gatillo electrónico por control óptico</h3>
+              <p class="component-card__text">Detecta tu gatillo por láser para una lectura precisa y rápida del disparo.</p>
+              <p class="component-card__benefit">Beneficio: respuesta más limpia y control más preciso.</p>
+            </div>
+          </article>
+          <article class="component-card reveal">
+            <div class="component-card__media">
+              <img src="assets/images/motor-brushless.png" alt="Motor Brushless del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">07</p>
+              <h3 class="component-card__title">Motor Brushless</h3>
+              <p class="component-card__text">Libera toda la potencia de tu réplica. Motor sin escobillas que no te limita ni se calienta, evitando los problemas habituales.</p>
+              <p class="component-card__benefit">Beneficio: entrega más eficiente, estable y preparada para uso exigente.</p>
+            </div>
+          </article>
+          <article class="component-card reveal">
+            <div class="component-card__media">
+              <img src="assets/images/Engranajes-Raccoon.png" alt="Engranajes Raccoon del Pack Asalto">
+            </div>
+            <div class="component-card__body">
+              <p class="component-card__number">08</p>
+              <h3 class="component-card__title">Engranajes Raccoon</h3>
+              <p class="component-card__text">Fabricados en CNC y modificados a la medida de tu réplica para ajustarse a la mejor relación.</p>
+              <p class="component-card__benefit">Beneficio: no te saltes ni un disparo.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -165,34 +235,43 @@
       <div class="page-shell">
         <div class="section-heading reveal">
           <p class="section-kicker">Beneficios técnicos</p>
-          <h2 id="benefits-title">Ventajas que se notan en el comportamiento</h2>
+          <h2 id="benefits-title">Lo que nota el usuario y por qué ocurre</h2>
+        </div>
+        <div class="benefits__visual image-panel image-panel--bottom-fade reveal">
+          <img class="visual-image visual-image--cover performance-image" src="assets/images/performance-detail.JPG" alt="Detalle de rendimiento del Pack Asalto centrado en respuesta y consistencia">
         </div>
         <div class="benefits__grid">
           <article class="benefit-card reveal">
             <span class="benefit-card__icon" aria-hidden="true"></span>
-            <h3 class="benefit-card__title">Mejor compresión</h3>
-            <p class="benefit-card__text">El sistema trabaja para reducir fugas y aprovechar mejor cada ciclo de energía.</p>
+            <h3 class="benefit-card__title">Respuesta más directa</h3>
+            <p class="benefit-card__text">La preparación busca reducir pérdidas y mejorar la transmisión de energía entre piezas clave del sistema.</p>
           </article>
           <article class="benefit-card reveal">
             <span class="benefit-card__icon" aria-hidden="true"></span>
             <h3 class="benefit-card__title">Mayor consistencia</h3>
-            <p class="benefit-card__text">Una configuración equilibrada ayuda a reducir variaciones innecesarias entre disparos.</p>
+            <p class="benefit-card__text">Un conjunto mejor ajustado ayuda a reducir variaciones innecesarias entre disparos.</p>
           </article>
           <article class="benefit-card reveal">
             <span class="benefit-card__icon" aria-hidden="true"></span>
-            <h3 class="benefit-card__title">Menor pérdida energética</h3>
-            <p class="benefit-card__text">Cada pieza se plantea para favorecer una transmisión más eficiente dentro del conjunto.</p>
+            <h3 class="benefit-card__title">Mejor eficiencia neumática</h3>
+            <p class="benefit-card__text">El sellado y la compresión son claves para aprovechar mejor el trabajo del muelle.</p>
           </article>
           <article class="benefit-card reveal">
             <span class="benefit-card__icon" aria-hidden="true"></span>
-            <h3 class="benefit-card__title">Respuesta estable</h3>
-            <p class="benefit-card__text">El comportamiento mecánico se vuelve más repetible en configuraciones exigentes.</p>
+            <h3 class="benefit-card__title">Menos montaje sin criterio</h3>
+            <p class="benefit-card__text">No se trata de añadir piezas por añadir, sino de seleccionar componentes que tengan sentido juntos.</p>
           </article>
           <article class="benefit-card reveal benefit-card--wide">
             <span class="benefit-card__icon" aria-hidden="true"></span>
-            <h3 class="benefit-card__title">Sinergia real entre componentes</h3>
-            <p class="benefit-card__text">No se trata de montar más piezas. Se trata de que cada elemento contribuya al mismo objetivo.</p>
+            <h3 class="benefit-card__title">Preparación revisada</h3>
+            <p class="benefit-card__text">Cada configuración debe comprobarse, ajustarse y validarse desde el criterio del taller.</p>
           </article>
+        </div>
+        <div class="benefits-data reveal" aria-label="Datos prácticos del Pack Asalto">
+          <div><span>Enfoque</span><strong>Respuesta / consistencia / fiabilidad</strong></div>
+          <div><span>Uso</span><strong>Asalto</strong></div>
+          <div><span>Instalación</span><strong>Técnica recomendada</strong></div>
+          <div><span>Ajuste</span><strong>Según réplica y configuración</strong></div>
         </div>
       </div>
     </section>
@@ -200,18 +279,16 @@
     <section class="philosophy section-pad" aria-labelledby="philosophy-title">
       <div class="philosophy__inner page-shell">
         <div class="philosophy__media reveal">
-          <div class="lab-visual" role="img" aria-label="Visual técnico inspirado en laboratorio mecánico">
-            <span class="lab-visual__beam"></span>
-            <span class="lab-visual__disc lab-visual__disc--one"></span>
-            <span class="lab-visual__disc lab-visual__disc--two"></span>
-            <span class="lab-visual__readout">Seal / response / repeatability</span>
-          </div>
+          <figure class="lab-visual image-panel image-panel--bottom-fade">
+            <img class="visual-image visual-image--cover" src="assets/images/design-philosophy.png" alt="Esquema técnico de funcionamiento interno del Pack Asalto">
+            <figcaption class="lab-visual__readout">Esquema técnico de funcionamiento interno</figcaption>
+          </figure>
         </div>
         <div class="philosophy__content reveal">
-          <p class="section-kicker">Filosofía de rendimiento</p>
-          <h2 id="philosophy-title">Diseñado como un sistema</h2>
+          <p class="section-kicker">Diseñado como sistema</p>
+          <h2 id="philosophy-title">Cada pieza tiene una función</h2>
           <p>
-            El rendimiento no depende de una sola pieza. Depende de cómo interactúan entre sí. Por eso cada pack se plantea como una solución equilibrada, no como una simple suma de componentes.
+            El resultado no depende solo de la calidad individual de cada componente, sino de cómo trabajan juntos dentro del ciclo mecánico.
           </p>
           <blockquote class="philosophy__quote">
             La diferencia no está en montar más piezas. Está en que trabajen como una sola.
@@ -223,29 +300,35 @@
     <section id="compatibilidad" class="compatibility section-pad section-raised" aria-labelledby="compatibility-title">
       <div class="page-shell">
         <div class="section-heading reveal">
-          <p class="section-kicker">Compatibilidad y uso recomendado</p>
-          <h2 id="compatibility-title">Criterio técnico antes que promesas genéricas</h2>
+          <p class="section-kicker">Criterio técnico / compatibilidad</p>
+          <h2 id="compatibility-title">Criterio técnico antes que montaje por catálogo</h2>
+          <p>
+            Antes de recomendar una configuración, importa entender la base de la réplica, el uso previsto y el comportamiento que busca el jugador.
+          </p>
+        </div>
+        <div class="compatibility__media image-panel image-panel--bottom-fade reveal">
+          <img class="visual-image visual-image--cover" src="assets/images/compatibility-aeg.JPG" alt="Réplica AEG en contexto técnico de taller para revisar compatibilidad">
         </div>
         <div class="compatibility__grid">
           <article class="compatibility-card reveal">
-            <p class="compatibility-card__label">Ideal para</p>
-            <p class="compatibility-card__value">Usuarios que buscan una mejora real en estabilidad y eficiencia del sistema.</p>
+            <p class="compatibility-card__label">Evaluación</p>
+            <p class="compatibility-card__value">Evaluación de la réplica antes de definir la preparación.</p>
           </article>
           <article class="compatibility-card reveal">
-            <p class="compatibility-card__label">Compatible con</p>
-            <p class="compatibility-card__value">Plataformas AEG compatibles con las medidas del pack.</p>
+            <p class="compatibility-card__label">Compatibilidad</p>
+            <p class="compatibility-card__value">Compatibilidad de piezas según plataforma, gearbox y medidas internas.</p>
           </article>
           <article class="compatibility-card reveal">
-            <p class="compatibility-card__label">Recomendado para</p>
-            <p class="compatibility-card__value">Configuraciones donde la consistencia y el sellado sean prioritarios.</p>
+            <p class="compatibility-card__label">Ajuste</p>
+            <p class="compatibility-card__value">Ajuste del conjunto para que los componentes trabajen de forma coherente.</p>
           </article>
           <article class="compatibility-card reveal">
-            <p class="compatibility-card__label">Instalación</p>
-            <p class="compatibility-card__value">Recomendable instalación técnica para asegurar ajuste y funcionamiento óptimos.</p>
+            <p class="compatibility-card__label">Prueba</p>
+            <p class="compatibility-card__value">Prueba de funcionamiento y revisión del comportamiento general.</p>
           </article>
           <article class="compatibility-card reveal compatibility-card--wide">
-            <p class="compatibility-card__label">Notas técnicas</p>
-            <p class="compatibility-card__value">Verificar tolerancias internas, medidas del nozzle y compatibilidad con la configuración de muelle antes de instalar.</p>
+            <p class="compatibility-card__label">Recomendación</p>
+            <p class="compatibility-card__value">Recomendación según uso, configuración buscada y estado real de la réplica.</p>
           </article>
         </div>
       </div>
@@ -254,48 +337,49 @@
     <section id="specs" class="specs section-pad" aria-labelledby="specs-title">
       <div class="specs__inner page-shell">
         <div class="section-heading reveal">
-          <p class="section-kicker">Especificaciones tecnicas</p>
-          <h2 id="specs-title">Información clara para decidir con criterio</h2>
+          <p class="section-kicker">Ficha técnica útil</p>
+          <h2 id="specs-title">Información práctica para decidir</h2>
         </div>
-        <div class="specs__table reveal" role="table" aria-label="Especificaciones tecnicas del pack">
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Materiales</div>
-            <div class="specs__value" role="cell">Aleaciones técnicas, polímeros reforzados y juntas de alto sellado según configuración.</div>
-          </div>
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Compatibilidad</div>
-            <div class="specs__value" role="cell">Plataformas AEG seleccionadas. Confirmar medidas antes de compra.</div>
-          </div>
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Componentes incluidos</div>
-            <div class="specs__value" role="cell">Cabeza de pistón, cabeza de cilindro, nozzle, guía de muelle, pistón y elemento de ajuste.</div>
-          </div>
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Nivel de instalación</div>
-            <div class="specs__value" role="cell">Técnico intermedio o instalación profesional recomendada.</div>
-          </div>
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Uso recomendado</div>
-            <div class="specs__value" role="cell">Optimizar compresión, repetibilidad y eficiencia mecánica en réplicas exigentes.</div>
-          </div>
-          <div class="specs__row" role="row">
-            <div class="specs__label" role="cell">Notas</div>
-            <div class="specs__value" role="cell">Los resultados dependen del estado de la réplica, ajuste interno y montaje final.</div>
-          </div>
+        <div class="specs__cards reveal">
+          <article class="spec-card">
+            <h3>Para quién es</h3>
+            <p>Usuarios que buscan una preparación de asalto equilibrada, con mejor respuesta y mayor confianza mecánica.</p>
+          </article>
+          <article class="spec-card">
+            <h3>Qué incluye</h3>
+            <p>Componentes seleccionados según configuración y compatibilidad de la réplica.</p>
+          </article>
+          <article class="spec-card">
+            <h3>Qué se revisa</h3>
+            <p>Compresión, ajuste, compatibilidad, respuesta, alimentación y comportamiento general.</p>
+          </article>
+          <article class="spec-card">
+            <h3>Instalación</h3>
+            <p>Recomendable instalación técnica para asegurar el ajuste correcto.</p>
+          </article>
+          <article class="spec-card">
+            <h3>Compatibilidad</h3>
+            <p>Depende de la plataforma, gearbox y medidas internas de la réplica.</p>
+          </article>
+          <article class="spec-card">
+            <h3>Antes de comprar</h3>
+            <p>Consulta compatibilidad para evitar montar piezas sin criterio.</p>
+          </article>
         </div>
+        <a class="button button--secondary specs__cta reveal" href="#comprar">Consultar mi réplica</a>
       </div>
     </section>
 
     <section id="comprar" class="final-cta section-pad" aria-labelledby="final-title">
       <div class="final-cta__inner page-shell reveal">
         <p class="section-kicker">O'Clock Airsoft</p>
-        <h2 id="final-title" class="final-cta__title">Preparado para rendir donde otros fallan</h2>
+        <h2 id="final-title" class="final-cta__title">Prepara tu réplica con criterio</h2>
         <p class="final-cta__text">
-          Diseñado para usuarios que entienden que el rendimiento real se construye desde dentro.
+          Cuéntanos qué base tienes, qué uso le das y qué comportamiento buscas. Te orientamos antes de montar piezas sin sentido.
         </p>
         <div class="final-cta__actions">
-          <a class="button button--primary" href="#">Comprar pack</a>
-          <a class="button button--secondary" href="#faq">Consultar compatibilidad</a>
+          <button class="button button--primary" type="button" data-modal-open>Consultar compatibilidad</button>
+          <a class="button button--secondary" href="#pack-asalto">Ver packs disponibles</a>
         </div>
       </div>
     </section>
@@ -318,11 +402,11 @@
           </article>
           <article class="faq__item">
             <button class="faq__question" type="button" aria-expanded="false">
-              <span>¿Qué mejora exactamente este pack?</span>
+              <span>¿Qué mejora exactamente Pack Asalto?</span>
               <span class="faq__icon" aria-hidden="true"></span>
             </button>
             <div class="faq__answer">
-              <p>Está orientado a mejorar sellado, eficiencia neumática, consistencia entre disparos y estabilidad general del sistema.</p>
+              <p>Está orientado a mejorar respuesta, eficiencia neumática, consistencia entre disparos y confianza mecánica en uso dinámico.</p>
             </div>
           </article>
           <article class="faq__item">
@@ -331,7 +415,7 @@
               <span class="faq__icon" aria-hidden="true"></span>
             </button>
             <div class="faq__answer">
-              <p>No siempre, pero es recomendable si se busca un ajuste óptimo y una validación técnica del conjunto.</p>
+              <p>Es recomendable si se busca un ajuste correcto y una validación técnica del conjunto.</p>
             </div>
           </article>
           <article class="faq__item">
@@ -340,7 +424,7 @@
               <span class="faq__icon" aria-hidden="true"></span>
             </button>
             <div class="faq__answer">
-              <p>Incluye los componentes definidos para el pack. Algunas réplicas pueden requerir ajustes o piezas complementarias según su estado.</p>
+              <p>Incluye los componentes definidos para la configuración. Algunas réplicas pueden requerir ajustes o piezas complementarias según su estado.</p>
             </div>
           </article>
           <article class="faq__item">
@@ -356,6 +440,41 @@
       </div>
     </section>
   </main>
+
+  <div class="consult-modal" id="compatibility-modal" aria-hidden="true">
+    <div class="consult-modal__backdrop" data-modal-close></div>
+    <section class="consult-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="compatibility-modal-title">
+      <button class="consult-modal__close" type="button" aria-label="Cerrar formulario" data-modal-close></button>
+      <p class="section-kicker">Consulta técnica</p>
+      <h2 id="compatibility-modal-title">Cuéntanos qué réplica tienes</h2>
+      <p class="consult-modal__text">
+        Déjanos tus datos y la base de tu réplica para revisar compatibilidad antes de montar piezas sin criterio.
+      </p>
+      <form class="consult-form">
+        <label>
+          Nombre
+          <input type="text" name="nombre" autocomplete="name" required>
+        </label>
+        <label>
+          Réplica que tienes
+          <input type="text" name="replica" placeholder="Marca, modelo o plataforma" required>
+        </label>
+        <div class="consult-form__split">
+          <label>
+            Correo electrónico
+            <input type="email" name="email" autocomplete="email">
+          </label>
+          <label>
+            WhatsApp
+            <input type="tel" name="whatsapp" autocomplete="tel">
+          </label>
+        </div>
+        <p class="consult-form__hint">Puedes dejar correo, WhatsApp o ambos.</p>
+        <button class="button button--primary" type="submit">Enviar consulta</button>
+        <p class="consult-form__status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
 
   <script src="script.js"></script>
 </body>
